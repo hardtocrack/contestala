@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP - contesta.la</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #f4f4f5;
+            color: #18181b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+            color: #27272a;
+            font-size: 24px;
+            margin-bottom: 30px;
+            letter-spacing: -0.5px;
+        }
+        .vip-badge {
+            display: inline-block;
+            background-color: #000;
+            color: #fff;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+        .message-block {
+            text-align: left;
+            background-color: #fafafa;
+            border-left: 4px solid #3b82f6;
+            padding: 16px 20px;
+            margin-bottom: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+        .message-block:last-child {
+            margin-bottom: 0;
+        }
+        .lang-label {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            color: #71717a;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        p {
+            margin: 0;
+            line-height: 1.5;
+            font-size: 15px;
+        }
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="vip-badge">VIP Access</div>
+        <h1>contesta.la</h1>
+
+        <!-- Español -->
+        <div class="message-block">
+            <span class="lang-label">Español</span>
+            <p>Servicio VIP clientes contesta.la, en el caso de desconexión, email de contacto en <a href="mailto:contestala@atomicmail.io">contestala@atomicmail.io</a></p>
+        </div>
+
+        <!-- English -->
+        <div class="message-block">
+            <span class="lang-label">English</span>
+            <p>contesta.la VIP client service, in case of disconnection, contact email at <a href="mailto:contestala@atomicmail.io">contestala@atomicmail.io</a></p>
+        </div>
+
+        <!-- Nederlands -->
+        <div class="message-block">
+            <span class="lang-label">Nederlands</span>
+            <p>VIP-klantenservice contesta.la, in geval van een verbroken verbinding, neem contact op via e-mail: <a href="mailto:contestala@atomicmail.io">contestala@atomicmail.io</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
